@@ -1,0 +1,12 @@
+{
+    "name": "leaveApproveOrRejectedLambda",
+    "version": "1.0.0",
+    "description": "Lambdas to approve or reject leave from function url",
+    "private": true,
+    "license": "MIT",
+    "devDependencies": {
+    },
+    "dependencies": {
+      "aws-sdk": "*"
+    }
+  }

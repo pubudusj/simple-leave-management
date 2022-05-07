@@ -1,0 +1,12 @@
+{
+    "name": "initStepFunctionLambda",
+    "version": "1.0.0",
+    "description": "Lambdas to do init step function",
+    "private": true,
+    "license": "MIT",
+    "devDependencies": {
+    },
+    "dependencies": {
+      "aws-sdk": "*"
+    }
+  }

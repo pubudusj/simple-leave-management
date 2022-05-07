@@ -1,0 +1,12 @@
+{
+    "name": "createLeaveLambda",
+    "version": "1.0.0",
+    "description": "Lambdas to save a leave record into db",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "*",
+        "email-validator": "^2.0.4",
+        "uuid": "^8.3.2"
+    }
+}
