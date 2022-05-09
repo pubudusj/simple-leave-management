@@ -1,14 +1,16 @@
-# Welcome to your CDK TypeScript project
+# Simple Leave Management with AWS Serverless
 
-This is a blank project for TypeScript development with CDK.
+This project contains the source code required to set up the Simple Leave Management System built with AWS Serverless services.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Useful commands
+### Architecture
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+![Architecture](static/simple-leave-service-architecture.png)
+
+
+### State Machine
+
+![State Machine](static/simple-leave-state-machine.png)
+
+More information and deployment instructions can be found at:
+**[https://pubudu.hashnode.dev/simple-leave-management-system](https://pubudu.hashnode.dev/simple-leave-management-system)**
