@@ -207,7 +207,7 @@ export class SimpleLeavesStack extends Stack {
 
 
     const waitingForRetry = new sfn.Wait(this, 'Wait', {
-      time: sfn.WaitTime.duration(Duration.seconds(30)),
+      time: sfn.WaitTime.duration(Duration.seconds(120)),
     });
 
     sendReminderToManager.next(waitingForRetry);
